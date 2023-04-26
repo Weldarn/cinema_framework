@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Marco 2.0</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: aquamarine;">
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: aqua;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Cinema Marco</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Accueil.html">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Films.html">Films</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Acteurs.html">Acteurs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+    </header>    
+    
+    <div class="h1">
+        <h1 class="m-5" style="background-color: blueviolet; text-align: center;">Derniers films à l'affiche</h1>
+    </div>
+    
+    <div class="container  d-flex flex-row justify-content-around">
+        <a href="Films.html" style="text-align: center; background-color: aqua;">
+            <img src="Film\Film_1.jfif" alt="film_1" class="rounded">
+        </a>
+        <a href="Films.html">
+            <img src="Film\Film_3.jfif" alt="film_3" class="rounded">
+        </a>
+        <a href="Films.html">
+            <img src="Film\Film_2.jfif" alt="film_2" class="rounded">
+        </a>
+        
+    </div>
+    <div class="h2">
+        <h2 class="titre_h2" style="background-color: blueviolet; text-align: center; margin: 5%;">Acteurs populaires</h2>
+    </div>
+    
+    <div class="bulle_2 d-flex flex-wrap justify-content-around" style="background-color: brown; padding: 5%; ">
+        
+        <div>
+            <a href="Acteurs.html"><img src="Acteur\Acteur_1.jfif" alt="Acteur_1"  class="image_acteurs; rounded"></a>
+            <p>Daniel Craig</p>
+        </div>
+        <div class="image_acteurs">
+            <a href="Acteurs.html"><img src="Acteur\Acteur_2.jfif" alt="Acteur_2"  class="image_acteurs; rounded"></a>
+            <p>Bradley Cooper</p>
+        </div>
+        <div class="image_acteurs">
+            <a href="Acteurs.html"><img src="Acteur\Acteur_3.jfif" alt="Acteur_3"  class="image_acteurs; rounded"></a>
+            <p>Cillian Murphy</p>
+        </div>
+        <div class="image_acteurs">
+            <a href="Acteurs.html"><img src="Acteur\Acteur_4.jfif" alt="Acteur_4"  class="image_acteurs; rounded"></a>
+            <p>Gaspard Ulliel</p>
+        </div>
+    </div>
+
+</body>
+
+<footer class="pied_page container d-flex flex-column justify-content-center" style="background-color: chartreuse;">
+    
+    <div class="horaires" style="background-color: coral;">
+        <h3>Horaires:</h3>
+        <p>Du Lundi au Samedi: 17h30 à 00h00</p>
+    </div>
+
+    <h3>Réseaux sociaux:</h3>
+    <div class="reseaux container d-flex justify-content-around" style="background-color: beige;">
+        <img class="imager" src="logo/facebook.png" alt="facebook" style="height: auto; width: 15%;"></a>
+        <br>
+        <img class="imager" src="logo/instagram.png" alt="instagram" style="height: auto; width: 15%;"></a>
+        <br>
+        <img class="imager" src="logo/twitter.png" alt="twitter" style="height: auto; width: 15%;"></a>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>    
+</footer>
+</html>

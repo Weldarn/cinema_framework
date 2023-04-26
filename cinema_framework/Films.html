@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Marco 2.0</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: aquamarine;">
+    <header>
+        <nav class="navbar navbar-expand-lg" style="background-color: aqua;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Cinema Marco</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Accueil.html">Accueil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Films.html">Films</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Acteurs.html">Acteurs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contact.html">Contact</a>
+                  </li>
+              </div>
+            </div>
+          </nav>
+    </header>
+		
+		<section class="films-section" style="margin-bottom: 50px;">
+			<h2 class="h2_films" style="margin-top: 2%; margin-bottom: 2%;">Films disponibles :</h2>
+			<div class="films-grid d-flex flex-wrap justify-content-between" style="background-color: brown;">
+				<div class="film-card" style="background-color:#fff; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); padding: 20px; margin-bottom: 20px; flex-basis: calc(33.33% - 20px);">
+					<img src="Film\Film_1.jfif" alt="film_1" style="width: 100%; height: auto;">
+					<h3 style="margin-top: 10px; margin-bottom: 5px;">En Corps</h3>
+					<p class="film-info" style="font-size: 0.9em; margin-bottom: 10px;">Des corps bougent et le monde ne bouge plus vu que la terre bouge mais une personne apparaît.</p>
+					<a href="https://www.youtube.com/watch?v=WMqIkiI6fAA&pp=ygUQdHJhaWxlciBFbiBjb3Jwcw%3D%3D" class="trailer-link d-block" target="_blank" style="margin-bottom: 10px;">Voir la bande-annonce</a>
+					<div class="rating">
+						<span class="stars"></span>
+						<span class="user-rating">4,5/5</span>
+					</div>
+				</div>
+				<div class="film-card" style="background-color:#fff; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); padding: 20px; margin-bottom: 20px; flex-basis: calc(33.33% - 20px);">
+					<img src="Film\Film_2.jfif" alt="film_2" style="width: 100%; height: auto;">
+					<h3 style="margin-top: 10px; margin-bottom: 5px;">L'empereur de Paris</h3>
+					<p class="film-info" style="font-size: 0.9em; margin-bottom: 10px;">Macron et son frère cadet se batte dans des épreuves d'interville pour savoir qui sera le Président de France.</p>
+					<a href="https://www.youtube.com/watch?v=ka51L2vmToE&pp=ygUbdHJhaWxlciBsJ2VtcGVyZXVyIGRlIHBhcmlz" class="trailer-link d-block" target="_blank" style="margin-bottom: 10px;">Voir la bande-annonce</a>
+					<div class="rating">
+						<span class="stars"></span>
+						<span class="user-rating">3,4/5</span>
+					</div>
+				</div>
+				<div class="film-card" style="background-color:#fff; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); padding: 20px; margin-bottom: 20px; flex-basis: calc(33.33% - 20px);">
+					<img src="Film\Film_3.jfif" alt="film_3" style="width: 100%; height: auto;">
+					<h3 style="margin-top: 10px; margin-bottom: 5px;">Le Dernier Voyage</h3>
+					<p class="film-info" style="font-size: 0.9em; margin-bottom: 10px;">Le carburant devient cher, le pass flexbus devient payant comment les héros pourront se déplacer ?</p>
+					<a href="https://www.youtube.com/watch?v=MlCQ4DmslnE&pp=ygUZdHJhaWxlciBsZSBkZXJuaWVyIHZveWFnZQ%3D%3D" class="trailer-link" target="_blank" style="margin-bottom: 10px;">Voir la bande-annonce</a>
+					<div class="rating">
+						<span class="stars"></span>
+						<span class="user-rating">3,4/5</span>
+					</div>
+				</div>
+                <div class="film-card" style="background-color:#fff; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); padding: 20px; margin-bottom: 20px; flex-basis: calc(33.33% - 20px);">
+					<img src="Film\Film_4.jfif" alt="film_4" style="width: 100%; height: auto;">
+					<h3 style="margin-top: 10px; margin-bottom: 5px;">The Northman</h3>
+					<p class="film-info" style="font-size: 0.9em; margin-bottom: 10px;">Suite à des problèmes financiers un ch'ti doit vivre à Marseille. Recommencer ça vie à côté du vieux port sera t'il possible ?</p>
+					<a href="https://www.youtube.com/watch?v=oMSdFM12hOw&pp=ygUUdHJhaWxlciB0aGUgbm9ydGhtYW4%3D" class="trailer-link" target="_blank" style="margin-bottom: 10px;">Voir la bande-annonce</a>
+					<div class="rating">
+						<span class="stars"></span>
+						<span class="user-rating">4,8/5</span>
+					</div>
+				</div>
+                <div class="film-card" style="background-color:#fff; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); padding: 20px; margin-bottom: 20px; flex-basis: calc(33.33% - 20px);">
+					<img src="Film\Film_5.jfif" alt="film_5" style="width: 100%; height: auto;">
+					<h3 style="margin-top: 10px; margin-bottom: 5px;">Super Mario Bros</h3>
+					<p class="film-info" style="font-size: 0.9em; margin-bottom: 10px;">C'est mario mais en film... oui.</p>
+					<a href="https://www.youtube.com/watch?v=732LtFVX6eU&pp=ygUSdHJhaWxlciBtYXJpbyBicm9z" class="trailer-link" target="_blank" style="margin-bottom: 10px;">Voir la bande-annonce</a>
+					<div class="rating">
+						<span class="stars"></span>
+						<span class="user-rating">2,2/5</span>
+					</div>
+				</div>
+                <div class="film-card" style="background-color:#fff; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); padding: 20px; margin-bottom: 20px; flex-basis: calc(33.33% - 20px);">
+					<img src="Film\Film_6.jfif" alt="film_6" style="width: 100%; height: auto;">
+					<h3 style="margin-top: 10px; margin-bottom: 5px;">Les Complices</h3>
+					<p class="film-info" style="font-size: 0.9em; margin-bottom: 10px;">Être complice c'est complexe donc soyons complice et regarde le film.</p>
+					<a href="https://www.youtube.com/watch?v=MlCQ4DmslnE&pp=ygUZdHJhaWxlciBsZSBkZXJuaWVyIHZveWFnZQ%3D%3D" class="trailer-link" target="_blank" style="margin-bottom: 10px;">Voir la bande-annonce</a>
+					<div class="rating">
+						<span class="stars"></span>
+						<span class="user-rating">4,5/5</span>
+					</div>
+				</div>
+                <div class="film-card" style="background-color:#fff; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); padding: 20px; margin-bottom: 20px; flex-basis: calc(33.33% - 20px);">
+					<img src="Film\Film_7.jfif" alt="film_7" style="width: 100%; height: auto;">
+					<h3 style="margin-top: 10px; margin-bottom: 5px;">Asterix & Obélix, L'empire du Milieu</h3>
+					<p class="film-info" style="font-size: 0.9em; margin-bottom: 10px;">Après Mission Cléopatre, c'est Mission L'empire du Milieu pour notre plus grande tristesse. </p>
+					<a href="https://www.youtube.com/watch?v=MlCQ4DmslnE&pp=ygUZdHJhaWxlciBsZSBkZXJuaWVyIHZveWFnZQ%3D%3D" class="trailer-link" target="_blank" style="margin-bottom: 10px;">Voir la bande-annonce</a>
+					<div class="rating">
+						<span class="stars"></span>
+						<span class="user-rating">2,8/5</span>
+					</div>
+				</div>
+                <div class="film-card" style="background-color:#fff; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); padding: 20px; margin-bottom: 20px; flex-basis: calc(33.33% - 20px);">
+					<img src="Film\Film_8.jfif" alt="film_8" style="width: 100%; height: auto;">
+					<h3 style="margin-top: 10px; margin-bottom: 5px;">Les Eternels</h3>
+					<p class="film-info" style="font-size: 0.9em; margin-bottom: 10px;">Un film où vous passerez votre vie dessus,littéralement.. clairement.. éternellement.</p>
+					<a href="https://www.youtube.com/watch?v=nHcubNwuKFA&pp=ygUVdHJhaWxlciBsZXMgZXRlcm5lbGVz" class="trailer-link" target="_blank" style="margin-bottom: 10px;">Voir la bande-annonce</a>
+					<div class="rating">
+						<span class="stars"></span>
+						<span class="user-rating">3,7/5</span>
+					</div>
+				</div>
+                <div class="film-card" style="background-color:#fff; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); padding: 20px; margin-bottom: 20px; flex-basis: calc(33.33% - 20px);">
+					<img src="Film\Film_9.jfif" alt="film_9" style="width: 100%; height: auto;">
+					<h3 style="margin-top: 10px; margin-bottom: 5px;">10 jours (encore) sans Maman</h3>
+					<p class="film-info" style="font-size: 0.9em; margin-bottom: 10px;">Une famille souffre sans leur mère qui fugue pour boire dans des bars. Comment va faire le père pour cuire des pattes sans tuer sa famille ?</p>
+					<a href="https://www.youtube.com/watch?v=uK4kF5Wa20U&pp=ygUbdHJhaWxlciAxMCBqb3VycyBzYW5zIG1hbWFu" class="trailer-link" target="_blank" style="margin-bottom: 10px;">Voir la bande-annonce</a>
+					<div class="rating">
+						<span class="stars"></span>
+						<span class="user-rating">3,9/5</span>
+					</div>
+				</div>
+			</div>
+		</section>
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script> 
+	</body>
+	<footer class="pied_page container d-flex flex-column justify-content-center" style="background-color: chartreuse;">
+    
+        <div class="horaires" style="background-color: coral;">
+            <h3>Horaires:</h3>
+            <p>Du Lundi au Samedi: 17h30 à 00h00</p>
+        </div>
+    
+        <h3>Réseaux sociaux:</h3>
+        <div class="reseaux container d-flex justify-content-around" style="background-color: beige;">
+            <img class="imager" src="logo/facebook.png" alt="facebook" style="height: auto; width: 15%;"></a>
+            <br>
+            <img class="imager" src="logo/instagram.png" alt="instagram" style="height: auto; width: 15%;"></a>
+            <br>
+            <img class="imager" src="logo/twitter.png" alt="twitter" style="height: auto; width: 15%;"></a>
+        </div>
+    
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/popper.js/dist/popper.min.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>    
+    </footer>
+    </html>
